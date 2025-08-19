@@ -36,7 +36,7 @@ public class OrdenMapper {
         dto.setUsuarioDTO(new UsuarioDTO(
                 orden.getUsuario().getId(),
                 orden.getUsuario().getNombre(),
-                orden.getUsuario().getUsuario(),
+                orden.getUsuario().getUsername(),
                 orden.getUsuario().isActivo(),
                 new RoleDTO(
                         orden.getUsuario().getRole().getId(),
